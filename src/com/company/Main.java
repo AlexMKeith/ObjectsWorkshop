@@ -8,9 +8,11 @@ public class Main {
 
         Cat cat = new Cat(4,true, "Calico");
 
-        System.out.println(cat.getColor());
-        System.out.println(cat.getLegs());
-        System.out.println(cat.isFur());
-        
+//        System.out.println(cat.getColor());
+//        System.out.println(cat.getLegs());
+//        System.out.println(cat.isFur());
+
+        Pencil pencil = new Pencil(.7, "Dixon", false, "Orange", true);
+        Pencil pencil1 = new Pencil(.8, "Paper-Mate", true, "Yellow", false);
     }
 }
